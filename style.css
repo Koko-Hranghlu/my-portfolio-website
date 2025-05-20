@@ -182,6 +182,18 @@ a.source:hover {
   gap: 2rem;
 }
 
+.modal {
+  z-index: 100;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  place-items: center;
+}
+.modal-content {
+  background: #333;
+}
+
 /* footer */
 
 footer {
