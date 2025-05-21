@@ -1,152 +1,287 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<header id="header" class="uni-width center-items">
-  <nav>
-    <div class="uni-width">
-      <ul class="nav-link">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul> 
-    </div>
-  </nav>
-  <div>
-    <h1>Hi, my name is <span class="pri-color">Hapari Paya</span><br /> Front End Developer</h1>
-    <a href="#about" class="more-btn pri-color">Know more</a>
-  </div>
-</header>
-<section id="about" class="dark-bg ptb-4">
-  <div class="uni-width">
-    <h2 class="text-align">ABOUT ME</h2>
-    <div class="grid-cont">
-      <img src="images/profile.jpg">
-      <div class="text-cont">
-        <p>I am self taught front-end developer who is passionate about building awesome responsive websites and applications! I have currently learned and used HTML, CSS, SCSS, Tailwind CSS and Javascript in my projects. Also, I am really friendly who can fit in any team</p>
-        <p>My Tech Stack:</p>
-        <p class="languages"><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-sass"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-git-alt"></i> <i class="fa-brands fa-github"></i></p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header id="header" class="uni-width center-items">
+      <nav>
+        <div class="uni-width">
+          <ul class="nav-link">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div>
+        <h1>
+          Hi, my name is <span class="pri-color">Hapari Paya</span><br />
+          Front End Developer
+        </h1>
+        <a href="#about" class="more-btn pri-color">Know more</a>
       </div>
-    </div>
-</section>
-<section id="project" class="uni-width ptb-4">
-  <h2 class="text-align">PROJECTS</h2>
-  <div class="projects">
-    <article>
-      <h3>Bookmark landing page</h3>
-      <img src="images/bookmark-mockup.png">
-      <p class="tech-stack">
-        <span class="html">HTML</span>
-        <span class="css">CSS</span>
-        <span class="js">JS</span>
-      </p>
-      <a target="_blank" href="https://delicate-douhua-130610.netlify.app" class="pri-color live">See Live</a>
-      <a target="_blank" href="#" class="pri-color source">Source Code</a>
-      <p>This project really tested my layout skills, like making it responsive, at the same time using psuedo-elements to create blue shape curved backgrounds. There were also areas that required some JavaScript, such as the tabbed features section and the FAQ accordion.</p>
-    </article>
-    <article>
-      <h3>Job list filter</h3>
-      <img src="images/mockup-filter.png">
-      <p class="tech-stack">
-        <span class="html">HTML</span>
-        <span class="css">CSS</span>
-        <span class="js">JS</span>
-      </p>
-      <a target="_blank" href="https://clinquant-donut-4cc3cc.netlify.app" class="pri-color live">See Live</a>
-      <a target="_blank" href="#" class="pri-color source">Source Code</a>
-      <p>A webapp showing job list pulled from a local JSON data with multi-filtering functionality. It shows the specific job if it has all the tag/tags clicked by the user. </p>
-    </article>
-    <article>
-      <h3>URL shortening API landing page</h3>
-      <img src="images/mockup-url.png">
-      <p class="tech-stack">
-        <span class="html">HTML</span>
-        <span class="css">CSS</span>
-        <span class="js">JS</span>
-        <span class="api">API</span>
-      </p>
-      <a target="_blank" href="https://resplendent-pika-49e8f3.netlify.app" class="pri-color live">See Live</a>
-      <a target="_blank" href="#" class="pri-color source">Source Code</a>
-      <p>Integrated the shrtcode URL shortening API and played with browser storage to let data persist in this landing page.</p>
-    </article>
-    <article>
-      <h3>Spense Page</h3>
-      <img src="images/spense-mockup.png">
-      <p class="tech-stack">
-        <span class="html">HTML</span>
-        <span class="css">CSS</span>
-        <span class="js">JS</span>
-      </p>
-      <a target="_blank" href="https://roaring-taffy-8cbf8a.netlify.app/" class="pri-color live">See Live</a>
-      <a target="_blank" href="#" class="pri-color source">Source Code</a>
-      <p>A full responsive website with picture element to switch images on different viewports instead of the traditional media query method. I also made use of absolute positioning to place elements in the desired placed.</p>
-    </article>
-    <article>
-      <h3>Fiber landing page</h3>
-      <img src="images/fiber-mockup.png">
-      <p class="tech-stack">
-        <span class="html">HTML</span>
-        <span class="css">CSS</span>
-        <span class="js">JS</span>
-      </p>
-       <a target="_blank" href="https://reliable-starlight-ecc65b.netlify.app/" class="pri-color live">See Live</a>
-      <a target="_blank" href="#" class="pri-color source">Source Code</a>
-      <p>An online portfolio generator. Great to practice flex/grid layouts and sliders .This project helped me to learn more about vanilla css to built tricky stuffs from scratch. The testimonials are my first scrollable components which helped me learn more about the overflow property.</p>
-    </article>
-    <article>
-      <h3>Notes app</h3>
-      <img src="images/note-mockup.png">
-      <p class="tech-stack">
-        <span class="html">HTML</span>
-        <span class="css">CSS</span>
-        <span class="js">JS</span>
-      </p>
-      <a target="_blank" href="https://jovial-rugelach-30849e.netlify.app/" class="pri-color live">See Live</a>
-      <a target="_blank" href="https://github.com/Koko-Hranghlu/note-app" class="pri-color source">Source Code</a>
-      <p>A webapp with all the functionalities of a modern CRUD app. The user can also add label/labels to it and based on that we can categorized the notes and filter them on click. I also used localStorage so that data persist.</p>
-    </article>
-  </div>
-</section>
-<section id="contact" class="dark-bg ptb-4">
-  <div class="uni-width text-align">
-    <h2>CONTACT</h2>
-    <div class="contact-info center-items">
-      <p>Would you like to work with me? Awesome!</p>
-      <a class="mail-btn" href="#"><i class="fa-solid fa-envelope"></i> Mail Me</a>
-      <a href="tel:+123456789"><i class="fa-solid fa-phone"></i> Phone Me</a>
-    </div>
-  </div>
-  <div class="modal">
-    <div class="modal-content uni-width">
-      <h2>Contact Us</h2>
-      <form class="" action="" method="get" accept-charset="utf-8">
-        <label for="">Name</label>
-        <input type="text" name="" id="" value="" />
-        <label for="">Email</label>
-        <input type="email" name="" id="" value="" />
-        <textarea name="" id= rows="8" cols="40"></textarea>
-        <button type="button" class="modal-close-btn">Close</button>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </div>
-</section>
-<footer>
-  <div class="uni-width center-items ptb-4">
-    <button class="fa-solid fa-angle-up top-btn"></button>
-    <div class="footer-links">
-      <a href="#" class="fa-brands fa-linkedin-in"></a>
-      <a href="#" class="fa-brands fa-codepen"></a>
-      <a href="#" class="fa-brands fa-github"></a>
-    </div>
-  </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="script.js" type="text/javascript" charset="utf-8"></script>
-</body>
+    </header>
+    <section id="about" class="dark-bg ptb-4">
+      <div class="uni-width">
+        <h2 class="text-align">ABOUT ME</h2>
+        <div class="grid-cont">
+          <img src="images/profile.jpg" />
+          <div class="text-cont">
+            <p>
+              I am self taught front-end developer who is passionate about
+              building awesome responsive websites and applications! I have
+              currently learned and used HTML, CSS, SCSS, Tailwind CSS and
+              Javascript in my projects. Also, I am really friendly who can fit
+              in any team
+            </p>
+            <p>My Tech Stack:</p>
+            <p class="languages">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-sass"></i> <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-git-alt"></i>
+              <i class="fa-brands fa-github"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project" class="uni-width ptb-4">
+      <h2 class="text-align">PROJECTS</h2>
+      <div class="projects">
+        <article>
+          <h3>Bookmark landing page</h3>
+          <img src="images/bookmark-mockup.png" />
+          <p class="tech-stack">
+            <span class="html">HTML</span>
+            <span class="css">CSS</span>
+            <span class="js">JS</span>
+          </p>
+          <a
+            target="_blank"
+            href="https://delicate-douhua-130610.netlify.app"
+            class="pri-color live"
+            >See Live</a
+          >
+          <a target="_blank" href="#" class="pri-color source">Source Code</a>
+          <p>
+            This project really tested my layout skills, like making it
+            responsive, at the same time using psuedo-elements to create blue
+            shape curved backgrounds. There were also areas that required some
+            JavaScript, such as the tabbed features section and the FAQ
+            accordion.
+          </p>
+        </article>
+        <article>
+          <h3>Job list filter</h3>
+          <img src="images/mockup-filter.png" />
+          <p class="tech-stack">
+            <span class="html">HTML</span>
+            <span class="css">CSS</span>
+            <span class="js">JS</span>
+          </p>
+          <a
+            target="_blank"
+            href="https://clinquant-donut-4cc3cc.netlify.app"
+            class="pri-color live"
+            >See Live</a
+          >
+          <a target="_blank" href="#" class="pri-color source">Source Code</a>
+          <p>
+            A webapp showing job list pulled from a local JSON data with
+            multi-filtering functionality. It shows the specific job if it has
+            all the tag/tags clicked by the user.
+          </p>
+        </article>
+        <article>
+          <h3>URL shortening API landing page</h3>
+          <img src="images/mockup-url.png" />
+          <p class="tech-stack">
+            <span class="html">HTML</span>
+            <span class="css">CSS</span>
+            <span class="js">JS</span>
+            <span class="api">API</span>
+          </p>
+          <a
+            target="_blank"
+            href="https://resplendent-pika-49e8f3.netlify.app"
+            class="pri-color live"
+            >See Live</a
+          >
+          <a target="_blank" href="#" class="pri-color source">Source Code</a>
+          <p>
+            Integrated the shrtcode URL shortening API and played with browser
+            storage to let data persist in this landing page.
+          </p>
+        </article>
+        <article>
+          <h3>Spense Page</h3>
+          <img src="images/spense-mockup.png" />
+          <p class="tech-stack">
+            <span class="html">HTML</span>
+            <span class="css">CSS</span>
+            <span class="js">JS</span>
+          </p>
+          <a
+            target="_blank"
+            href="https://roaring-taffy-8cbf8a.netlify.app/"
+            class="pri-color live"
+            >See Live</a
+          >
+          <a target="_blank" href="#" class="pri-color source">Source Code</a>
+          <p>
+            A full responsive website with picture element to switch images on
+            different viewports instead of the traditional media query method. I
+            also made use of absolute positioning to place elements in the
+            desired placed.
+          </p>
+        </article>
+        <article>
+          <h3>Fiber landing page</h3>
+          <img src="images/fiber-mockup.png" />
+          <p class="tech-stack">
+            <span class="html">HTML</span>
+            <span class="css">CSS</span>
+            <span class="js">JS</span>
+          </p>
+          <a
+            target="_blank"
+            href="https://reliable-starlight-ecc65b.netlify.app/"
+            class="pri-color live"
+            >See Live</a
+          >
+          <a target="_blank" href="#" class="pri-color source">Source Code</a>
+          <p>
+            An online portfolio generator. Great to practice flex/grid layouts
+            and sliders .This project helped me to learn more about vanilla css
+            to built tricky stuffs from scratch. The testimonials are my first
+            scrollable components which helped me learn more about the overflow
+            property.
+          </p>
+        </article>
+        <article>
+          <h3>Notes app</h3>
+          <img src="images/note-mockup.png" />
+          <p class="tech-stack">
+            <span class="html">HTML</span>
+            <span class="css">CSS</span>
+            <span class="js">JS</span>
+          </p>
+          <a
+            target="_blank"
+            href="https://jovial-rugelach-30849e.netlify.app/"
+            class="pri-color live"
+            >See Live</a
+          >
+          <a
+            target="_blank"
+            href="https://github.com/Koko-Hranghlu/note-app"
+            class="pri-color source"
+            >Source Code</a
+          >
+          <p>
+            A webapp with all the functionalities of a modern CRUD app. The user
+            can also add label/labels to it and based on that we can categorized
+            the notes and filter them on click. I also used localStorage so that
+            data persist.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="FAQ uni-width ptb-4">
+      <h2 class="text-align">Frequently Asked Questions</h2>
+      <div class="items">
+        <div class="item">
+        <div class="item__header">
+          <span class="item__question"
+            >How many team members can I invite?</span>
+          <button class="item__btn">
+            +
+          </button>
+        </div>
+        <div class="item__body">
+          You can invite up to 2 additional users on the Free plan. There is no
+          limit on team members for the Premium plan.
+        </div>
+      </div>
+        <div class="item">
+        <div class="item__header">
+          <span class="item__question"
+            >How many team members can I invite?</span
+          >
+          <button class="item__btn">
+            +
+          </button>
+        </div>
+        <div class="item__body">
+          You can invite up to 2 additional users on the Free plan. There is no
+          limit on team members for the Premium plan.
+        </div>
+      </div>
+        <div class="item">
+        <div class="item__header">
+          <span class="item__question"
+            >How many team members can I invite?</span
+          >
+          <button class="item__btn">
+            +
+          </button>
+        </div>
+        <div class="item__body">
+          You can invite up to 2 additional users on the Free plan. There is no
+          limit on team members for the Premium plan.
+        </div>
+      </div>
+      </div>
+      
+    </section>
+    <section id="contact" class="dark-bg ptb-4">
+      <div class="uni-width text-align">
+        <h2>CONTACT</h2>
+        <div class="contact-info center-items">
+          <p>Would you like to work with me? Awesome!</p>
+          <a class="mail-btn" href="#"
+            ><i class="fa-solid fa-envelope"></i> Mail Me</a
+          >
+          <a href="tel:+123456789"
+            ><i class="fa-solid fa-phone"></i> Phone Me</a
+          >
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal-content uni-width">
+          <h2>Contact Us</h2>
+          <form class="" action="" method="get" accept-charset="utf-8">
+            <label for="">Name</label>
+            <input type="text" name="" id="" value="" />
+            <label for="">Email</label>
+            <input type="email" name="" id="" value="" />
+            <textarea name="" id="rows" cols="40"></textarea>
+            <button type="button" class="modal-close-btn">Close</button>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="uni-width center-items ptb-4">
+        <button class="fa-solid fa-angle-up top-btn"></button>
+        <div class="footer-links">
+          <a href="#" class="fa-brands fa-linkedin-in"></a>
+          <a href="#" class="fa-brands fa-codepen"></a>
+          <a href="#" class="fa-brands fa-github"></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
 </html>
